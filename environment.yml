@@ -1,0 +1,14 @@
+name: odyssea_example
+channels:
+  - conda-forge
+dependencies:
+  - cartopy
+  - cmaps
+  - copernicusmarine
+  - matplotlib
+  - numpy
+  - pprint
+  - xarray
+  - pip
+  - pip:
+      - -e .
