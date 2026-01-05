@@ -7,7 +7,6 @@ dependencies:
   - copernicusmarine
   - matplotlib
   - numpy
-  - pprint
   - xarray
   - pip
   - pip:
