@@ -1,0 +1,21 @@
+[project]
+name = "ODYSSEA_example"
+version = "0.0.1"
+description = "Jupyter notebook examples to read Copernicus ODYSSEA data product."
+authors = [{ name="Enrico Milanese", email="enrico.milanese@whoi.edu" }]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+dependencies = [
+    "cartopy",
+    "cmaps"
+    "copernicusmarine",
+    "matplotlib",
+    "numpy",
+    "pprint",
+    "xarray",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
