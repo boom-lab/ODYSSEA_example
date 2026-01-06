@@ -1,0 +1,19 @@
+{
+    "dataset_id": "cmems_obs-sst_glo_phy_my_l3s_P1D-m",
+    "start_datetime": "2010-01-01T00:00:00Z",
+    "end_datetime": "2010-02-01T00:00:00Z",
+    "minimum_longitude": -85,
+    "maximum_longitude": -30,
+    "minimum_latitude": 15,
+    "maximum_latitude": 60,
+    "minimum_depth": 0,
+    "maximum_depth": 100,
+    "output_directory": "odyssea_data",
+    "file_list": [],
+    "sync": false,
+    "sync_delete": false,
+    "index_parts": false,
+    "disable_progress_bar": false,
+    "overwrite": false,
+    "log_level": "INFO"
+}
