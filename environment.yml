@@ -5,6 +5,7 @@ dependencies:
   - cartopy
   - cmaps
   - copernicusmarine
+  - jupyterlab
   - matplotlib
   - numpy
   - xarray
