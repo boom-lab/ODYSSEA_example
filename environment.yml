@@ -9,6 +9,3 @@ dependencies:
   - matplotlib
   - numpy
   - xarray
-  - pip
-  - pip:
-      - -e .
