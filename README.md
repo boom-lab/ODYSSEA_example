@@ -9,8 +9,8 @@ Prerequisites: Python 3.9+ or conda (Miniconda / Anaconda)
 #### conda
 ```bash
 # create and activate environment
-conda create -n odyssea-example python=3.10 -y
-conda activate odyssea-example
+conda env create -f environment.yml
+conda activate odyssea_example
 ```
 
 #### pip
@@ -33,7 +33,13 @@ copernicusmarine subset --request-file copernicusmarine_template/odyssea_dl.json
 
 The data is downloaded to the directory `./odyssea_data`, where the relative path `./` is from the location of execution of the command, not from the location of `odyssea_dl.json`.
 
-Downloading Copernicus data requires (free) registration to the Copernicus Marine services, see: (https://data.marine.copernicus.eu/register).
+Note that two ODYSSEA L3S products exist depending on time coverage:
+- [31 Dec 1981 to 30 Dec 2024](https://data.marine.copernicus.eu/product/SST_GLO_PHY_L3S_MY_010_039/description);
+- [9 Dec 2020 to present](https://data.marine.copernicus.eu/product/SST_GLO_SST_L3S_NRT_OBSERVATIONS_010_010/description);
+
+the two products might aggregate data from different sensors, refer to their page for more details.
+
+Downloading Copernicus data requires (free) registration to the Copernicus Marine services, see: https://data.marine.copernicus.eu/register.
 
 
 ### About ODYSSEA
